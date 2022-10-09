@@ -54,14 +54,30 @@ public abstract class Bag {
      *           - getNumberOfContents
      *           - getCapacity
      */
+
+    /**
+     * Returns color of this bag
+     *
+     * @return color of this bag
+     */
     public String getColor(){
         return color;
     }
 
+    /**
+     * Returns number of contents of this bag
+     *
+     * @return number of contents of this bag
+     */
     public int getNumberOfContents(){
         return numberOfContents;
     }
 
+    /**
+     * Returns capacity of this bag
+     *
+     * @return capacity of this bag
+     */
     public int getCapacity(){
         return capacity;
     }
@@ -71,6 +87,11 @@ public abstract class Bag {
     /*
      * TODO: Create a setter function called setColor which sets the
      *       color of this bag to the given color.
+     */
+
+    /**
+     * Sets the color of this bag to the given color
+     *
      */
     public void setColor(String color){
         this.color = color;
